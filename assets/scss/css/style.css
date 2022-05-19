@@ -1,0 +1,30 @@
+.container .row .card {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container .row .card .card-thm-top {
+  margin-top: 30px;
+  height: 100px;
+}
+
+.container .row a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.container .row:hover a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */

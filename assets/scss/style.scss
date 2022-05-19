@@ -1,0 +1,30 @@
+.container{
+    .row{
+        .card{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            .card-thm-top{
+                margin-top: 30px;
+                height: 100px;
+            } 
+        }
+
+        a{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            color: black;
+
+           
+            
+        }
+
+        &:hover a {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: bold;
+            transition: 1s;
+        }
+        
+    }
+}

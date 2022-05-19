@@ -1,0 +1,112 @@
+
+    .container {
+        .row {
+            .basket{
+                font-size: 35px;
+                display: flex;
+                justify-content: flex-end;
+                cursor: pointer;
+                i{
+                    sup{
+                        font-size: 25px;
+                        color: rgb(12, 117, 229);
+                    }
+                }
+            }
+            .content {
+                .title {
+                    p {
+                        color: rgb(118, 109, 109);
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
+                .icons {
+                    ul {
+                        li {
+                            list-style: none;
+                            margin: 2px;
+
+                        }
+
+                        li:nth-child(1) {
+                            color: rgb(226, 226, 41);
+                        }
+
+                        li:nth-child(2) {
+                            color: rgb(226, 226, 41);
+                        }
+
+                        li:nth-child(3) {
+                            color: rgb(226, 226, 41);
+                        }
+
+                        span {
+                            margin-left: 15px;
+                        }
+
+                        p {
+                            margin-left: 15px;
+                            color: rgb(209, 195, 195);
+                        }
+                    }
+                }
+
+                .price {
+                    h3 {
+                        color: rgb(227, 157, 27);
+                        font-weight: bold;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    }
+                }
+
+                .size{
+                    i{
+                        span{
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-size: 17px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                .infos {
+                    border-bottom: solid 1px  rgb(170, 161, 161);
+                    width: 75%;
+                    li {
+                        list-style: none;
+                    }
+
+                    .left {
+                        padding-right: 40px;
+                        ul {
+                            li {
+                                color: rgb(101, 95, 95);    
+                            }
+                        }
+                    }
+                    .right {
+                        
+                        ul {
+                            li {
+                                color: rgb(101, 95, 95);    
+                            }
+                            li:nth-child(1){
+                                color: rgb(238, 159, 12);
+                            }
+                        }
+                    }
+                }
+
+                .buttons{
+                   button:nth-child(1){
+                       margin-right: 40px;
+                   }
+                }
+            }
+        }
+    }

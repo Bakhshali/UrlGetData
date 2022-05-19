@@ -1,0 +1,92 @@
+.container .row .basket {
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+}
+
+.container .row .basket i sup {
+  font-size: 25px;
+  color: #0c75e5;
+}
+
+.container .row .content .title p {
+  color: #766d6d;
+  font-size: 20px;
+}
+
+.container .row .content .title h1 {
+  font-size: 30px;
+}
+
+.container .row .content .icons ul li {
+  list-style: none;
+  margin: 2px;
+}
+
+.container .row .content .icons ul li:nth-child(1) {
+  color: #e2e229;
+}
+
+.container .row .content .icons ul li:nth-child(2) {
+  color: #e2e229;
+}
+
+.container .row .content .icons ul li:nth-child(3) {
+  color: #e2e229;
+}
+
+.container .row .content .icons ul span {
+  margin-left: 15px;
+}
+
+.container .row .content .icons ul p {
+  margin-left: 15px;
+  color: #d1c3c3;
+}
+
+.container .row .content .price h3 {
+  color: #e39d1b;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .row .content .size i span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.container .row .content .infos {
+  border-bottom: solid 1px #aaa1a1;
+  width: 75%;
+}
+
+.container .row .content .infos li {
+  list-style: none;
+}
+
+.container .row .content .infos .left {
+  padding-right: 40px;
+}
+
+.container .row .content .infos .left ul li {
+  color: #655f5f;
+}
+
+.container .row .content .infos .right ul li {
+  color: #655f5f;
+}
+
+.container .row .content .infos .right ul li:nth-child(1) {
+  color: #ee9f0c;
+}
+
+.container .row .content .buttons button:nth-child(1) {
+  margin-right: 40px;
+}
+/*# sourceMappingURL=detail.css.map */
